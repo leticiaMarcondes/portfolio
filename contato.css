@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* INICIO INFORMAÇÃO DE CONTATO */
+
+.contato h2{
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    padding: 0 0 20px 0 ;
+}
+.contato p{
+    font-family: raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 0 10px 0 ;
+    line-height: 35px;
+    background-color: #cfadd2;
+    padding: 10px;
+}
+/* FIM INFORMAÇÃO DE CONTATO */
+
+/* INICIO FORMULARIO */
+
+form label{
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding: 0 0 5px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.h2-contato{
+    padding-top: 50px;
+    text-align: center;
+    
+    padding-right: 100px
+}
+
+.div-Principal{ 
+
+    display: flex;
+    margin: 0 40px 0 40px;
+}
+
+.formulario{
+     width: 50%; 
+     margin-left: 100px;
+}
+
+.mensagem{
+    text-align: center;
+}
+
+#mensagem{
+    display: inline-block;
+
+}
+
+.enviar{
+    font-family: raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 40%;
+    padding: 15px 0 15px 0 ;
+    background-color: #7092af;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-contato{
+    padding: 30px 0 80px 0;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+}
+
+form{
+    /* width: 650px; */
+}
+
+/* FIM FORMULARIO */

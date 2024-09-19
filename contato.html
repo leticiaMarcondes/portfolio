@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Leticia</title>
+</head>
+<body>
+    <header>
+        <h1> Leticia Martins</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="biografia.html">SOBRE MIM</a></li>
+                <li><a href="trabalhos.html">TRABALHOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="h2-contato">Envie uma mensagem</h2>
+    <div class="form-contato">
+
+        <form action="">
+            <div class="div-Principal">
+
+                <div class="formulario">
+
+
+                    <label for="nome">Nome</label>
+                    <input required placeholder="Digite seu nome" type="text" name="nome" id="nome"
+                        class="input-padrao">
+
+                    <label for="telefone">Telefone</label>
+                    <input required placeholder="( ) _____ ._____" type="tel" name="telefone" id="telefone"
+                        class="input-padrao">
+
+                    <label for="cep">CEP</label>
+                    <input required placeholder="Digite seu CEP" onchange="consultarCEP()" type="text" name="cep"
+                        id="cep" class="input-padrao">
+
+                    <label for="Cidade">Cidade</label>
+                    <input required placeholder="Digite sua cidade" type="text" name="cidade" id="cidade"
+                        class="input-padrao">
+
+                </div>
+                <div class="formulario">
+
+                    <label for="Endereco">Endereço</label>
+                    <input required placeholder="Digite seu endereço" type="text" name="endereco" id="endereco"
+                        class="input-padrao">
+
+
+                    <label for="Bairro">Bairro</label>
+                    <input required placeholder="Digite seu bairro" type="text" name="bairro" id="bairro"
+                        class="input-padrao">
+
+                    <label for="Estado">Estado</label>
+                    <input required placeholder="Digite seu estado" type="text" name="estado" id="estado"
+                        class="input-padrao">
+
+                    <label for="email">E-mail</label>
+                    <input required placeholder="Digeite seu email" type="email" name="email" id="email"
+                        class="input-padrao">
+
+                    
+
+
+                </div>
+
+                
+
+            </div>
+            
+            <div class="mensagem">
+                <label for="mensagem">Mensagem</label>
+                <textarea required placeholder="Deixe sua mensagem" name="mensagem" id="mensagem" cols="30"
+                    rows="10" class="input-padrao"></textarea>
+
+                <input type="submit" name="Enviar formulário" class="enviar">
+            </div>
+        </form>
+        <br>
+
+
+    </div>
+
+    
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://web.whatsapp.com/" target="_blank" class="social-link whatsapp-link">
+                <img class="icon-whatssap" src="whatssap.png" alt="WhatsApp">
+            </a>
+        </div>
+        <p class="footer-copyright">© LETICIA MARTINS</p>
+      </footer>
+
+    
+</body>
+</html>
